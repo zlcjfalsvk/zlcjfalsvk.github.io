@@ -55,11 +55,11 @@ sidebar:
 
 2. CA 기관 인증서 
 -   /etc/kubernetes/pki를 가보면 **ca.crt**파일이 있다.
-    ![cacrt](../../assets/img/_posts/kubernetes/dashboard/cacrt.png)
+    ![cacrt](/assets/img/posts/kubernetes/dashboard/cacrt.png)
 
 
 3. **1 & 2** 에서 만든 kubecfg.p12, ca.crt 파일을 접근할 호스트에 다운을 받거나 복사를 한다.
-    ![copy](../../assets/img/_posts/kubernetes/dashboard/copy.png)
+    ![copy](/assets/img/posts/kubernetes/dashboard/copy.png)
 
 ### 3. 접속
 
@@ -103,12 +103,12 @@ sidebar:
 
 |chrome|firefox|
 |:---:|:---:|
-|![chrome](../../assets/img/_posts/kubernetes/dashboard/chrome.png)|![firefox](../../assets/img/_posts/kubernetes/dashboard/firefox.png)|
+|![chrome](/assets/img/posts/kubernetes/dashboard/chrome.png)|![firefox](/assets/img/posts/kubernetes/dashboard/firefox.png)|
 
 3. 만약에 안된다면 다음과 같은 방법을 이용해보자 [별첨](#별첨)
 
 4. 로그인 화면이 나온다면 성공!
-   ![login](../../assets/img/_posts/kubernetes/dashboard/login.png)
+   ![login](/assets/img/posts/kubernetes/dashboard/login.png)
 
 
 ### 로그인
@@ -167,11 +167,11 @@ sidebar:
 
         kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')
 
-    ![token](../../assets/img/_posts/kubernetes/dashboard/token.png)
+    ![token](/assets/img/posts/kubernetes/dashboard/token.png)
 
 4. 이 Token을 가지로 로그인!
 
-    ![login](../../assets/img/_posts/kubernetes/dashboard/logined.png)
+    ![login](/assets/img/posts/kubernetes/dashboard/logined.png)
 
 
 
@@ -184,7 +184,7 @@ sidebar:
 -   브라우저마다 다른데 chrome에서 인증서 설정은 다음과 같다.
 
     -   설정 - 인증서 검색 - 더보기 -인증서 관리
-        ![chromeconfig](../../assets/img/_posts/kubernetes/dashboard/chromeconfig.png)
+        ![chromeconfig](/assets/img/posts/kubernetes/dashboard/chromeconfig.png)
 
     -   내 인증서 부분에서는 kubecfg.p12 선택
     -   인증 기관 에서는 ca.crt 선택

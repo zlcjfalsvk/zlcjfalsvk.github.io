@@ -27,7 +27,7 @@ sidebar:
     chmod +x kompose
     sudo mv ./kompose /usr/local/bin/kompose
 
-![install](../../assets/img/_posts/kubernetes/composeTokube/install.png)
+![install](/assets/img/posts/kubernetes/composeTokube/install.png)
 
 
 ### Kompose 사용
@@ -37,6 +37,6 @@ sidebar:
 2. kompose convert 입력 (Deployment 파일 생성) 
    -  바로 생성하고 싶다면 kompose up 실행
    
-![convert](../../assets/img/_posts/kubernetes/composeTokube/convert.png)
+![convert](/assets/img/posts/kubernetes/composeTokube/convert.png)
 
 

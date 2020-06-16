@@ -18,16 +18,16 @@ DockerHub(cloud)에 image를 올려 가져와야할 때가 있고 그 중에서 
 -   DockerHub에 image 올리기
     
     1. [DockerFile](https://docs.docker.com/engine/reference/builder/#usage)을 참조해서 DockerFile을 만들고 build 후 image를 만든 다음에 DockerHub private Repository에 올린다.
-    ![dockerHub](../../assets/img/_posts/kubernetes/privateDocker/dockerhub.png)
+    ![dockerHub](/assets/img/posts/kubernetes/privateDocker/dockerhub.png)
 
     2. 터미널에 'docker login'을 입력 후 로그인을 한다.    
-    ![login](../../assets/img/_posts/kubernetes/privateDocker/login.png)
+    ![login](/assets/img/posts/kubernetes/privateDocker/login.png)
 
     3. DockerFile이 있는 위치에서 build를 한다.
-    ![build](../../assets/img/_posts/kubernetes/privateDocker/build.png)
+    ![build](/assets/img/posts/kubernetes/privateDocker/build.png)
 
     4. Push
-    ![Push](../../assets/img/_posts/kubernetes/privateDocker/push.png)
+    ![Push](/assets/img/posts/kubernetes/privateDocker/push.png)
 
 
 ### 세팅
@@ -71,7 +71,7 @@ DockerHub(cloud)에 image를 올려 가져와야할 때가 있고 그 중에서 
                 restartPolicy: Always
     4. 배포
     
-        ![deploy](../../assets/img/_posts/kubernetes/privateDocker/deploy.png)
+        ![deploy](/assets/img/posts/kubernetes/privateDocker/deploy.png)
 
 
 
