@@ -11,7 +11,7 @@ main:
 # Kubernetes - study
 
 kubernetes-nav:
-    - titlt: "목차"
+    - title: "목차"
       children:
         - title: "k8s 개념정리"
           url: /kubernetes/study  
@@ -29,3 +29,17 @@ kubernetes-nav:
           url: /kubernetes/privateDocker
         - title: "Tips"
           url: /kubernetes/kubetips                                  
+
+fblogin-nav:
+    - title: "목차"
+      children:
+        - title: "개요"
+          url: /Facebook Login/init
+        - title: "개념"
+          url: /Facebook Login/concept
+        - title: "앱 생성"
+          url: /Facebook Login/app
+        - title: "프론트"
+          url: /Facebook Login/frontend
+        - title: "백엔드"
+          url: /Facebook Login/backend
