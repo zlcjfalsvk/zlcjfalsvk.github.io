@@ -34,12 +34,12 @@ fblogin-nav:
     - title: "목차"
       children:
         - title: "개요"
-          url: /Facebook Login/init
+          url: /facebook login/init
         - title: "개념"
-          url: /Facebook Login/concept
+          url: /facebook login/concept
         - title: "앱 생성"
-          url: /Facebook Login/app
+          url: /facebook login/app
         - title: "프론트"
-          url: /Facebook Login/frontend
+          url: /facebook login/frontend
         - title: "백엔드"
-          url: /Facebook Login/backend
+          url: /facebook login/backend

@@ -1,9 +1,9 @@
 ---
 title: "k8s Private Docker Image"
 categories: 
-  - Kubernetes
+  - kubernetes
 tags:
-  - Kubernetes
+  - kubernetes
   - Docker
 last_modified_at: 2020-05-13T13:00:00+09:00
 author_profile: false
@@ -11,7 +11,7 @@ sidebar:
   - nav: kubernetes-nav
 ---
 
-K8S(Kubernetes)에서 Deployment, Pod 등 도커의 이미지를 활용해 컨테이너를 만드는데,
+K8S(kubernetes)에서 Deployment, Pod 등 도커의 이미지를 활용해 컨테이너를 만드는데,
 DockerHub(cloud)에 image를 올려 가져와야할 때가 있고 그 중에서 private한 image를 가져와야 할 때가 있다.
 
 ### 준비 사항
