@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-layout: categories
+layout: single
 last_modified_at: 2020-06-16T20:11:00-03:33
 author_profile: true
 ---

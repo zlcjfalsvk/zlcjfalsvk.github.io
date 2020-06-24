@@ -1,9 +1,9 @@
 ---
 title: "k8s dashboard"
 categories: 
-  - Kubernetes
+  - kubernetes
 tags:
-  - Kubernetes
+  - kubernetes
 last_modified_at: 2020-05-13T13:00:00+09:00
 author_profile: false
 sidebar:
@@ -69,7 +69,7 @@ sidebar:
    
         # 크롬 및 다른 브라우저 설정
         certutil -A \
-        -n "Kubernetes" \
+        -n "kubernetes" \
         -t "TC,," \
         -d sql:$HOME/.pki/nssdb \
         -i $HOME/ca.crt
@@ -85,7 +85,7 @@ sidebar:
 
         # firefox 에 설정
         certutil -A \
-        -n "Kubernetes" \
+        -n "kubernetes" \
         -t "TC,," \
         -d sql:/home/cheolmin/.mozilla/firefox/y8qw3klj.default \
         -i $HOME/ca.crt
