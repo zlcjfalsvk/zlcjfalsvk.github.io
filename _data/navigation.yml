@@ -27,6 +27,8 @@ kubernetes-nav:
           url: /kubernetes/dashboard
         - title: "Docker Private Image"
           url: /kubernetes/privateDocker
+        - title: "Ingress"
+          url: /kubernetes/ingress          
         - title: "Tips"
           url: /kubernetes/kubetips                                  
 
