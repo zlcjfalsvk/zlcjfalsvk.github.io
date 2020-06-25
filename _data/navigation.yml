@@ -19,7 +19,7 @@ kubernetes-nav:
           url: /kubernetes/minikube
         - title: "Docker-compose to k8s Resource"
           url: /kubernetes/composeTokube          
-        - title: "Minikube 띄어보기"
+        - title: "K8S RTB 배포 - Minikube에 배포해보기"
           url: /kubernetes/rtb
         - title: "kubeadm 운영환경 구축"
           url: /kubernetes/kubeadm
@@ -28,7 +28,7 @@ kubernetes-nav:
         - title: "Docker Private Image"
           url: /kubernetes/privateDocker
         - title: "Ingress"
-          url: /kubernetes/ingress          
+          url: /kubernetes/ingress
         - title: "Tips"
           url: /kubernetes/kubetips                                  
 
