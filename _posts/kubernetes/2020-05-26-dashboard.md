@@ -12,7 +12,7 @@ sidebar:
 
 **minikube**에서는 **minikube dashboard**를 입력하면 됬지만, <br/>
 **kubeadm**에서는 직접 **dashboard**를 구축해야 한다.
-이 방법을 **리소스 메트릭 파이프라인**이라고 한다.
+이 방법을 [**리소스 메트릭 파이프라인**](https://kubernetes.io/ko/docs/tasks/debug-application-cluster/resource-metrics-pipeline/)이라고 한다.
 
 구축은 쉬우나 
 접근 방법은 3가지가 있다. 이 글은 3번 API Server를 이용한 구축 및 접근을 작성한다.
@@ -117,51 +117,30 @@ sidebar:
 
 1. service account 생성
 
-        cat <<EOF | kubectl create -f -
-
+        $ cat <<EOF | kubectl create -f -
         apiVersion: v1
-
         kind: ServiceAccount
-
         metadata:
-
           name: admin-user
-
           namespace: kube-system
-
         EOF
-
 
 2. clusterRoleBinding
 
-        cat <<EOF | kubectl create -f -
-
+        $ cat <<EOF | kubectl create -f -
         apiVersion: rbac.authorization.k8s.io/v1
-
         kind: ClusterRoleBinding
-
         metadata:
-
           name: admin-user
-
         roleRef:
-
           apiGroup: rbac.authorization.k8s.io
-
           kind: ClusterRole
-
           name: cluster-admin
-
         subjects:
-
         - kind: ServiceAccount
-
           name: admin-user
-
           namespace: kube-system
-
         EOF
-
 
 3. 추가한 계정의 Token 생성
 
@@ -173,6 +152,26 @@ sidebar:
 
     ![login](/assets/img/posts/kubernetes/dashboard/logined.png)
 
+
+5. **Metric**을 이용해보자
+    
+    Dashboard 및 **kubectl top <node|pod>**명령어를 사용하고 싶다면 [metric-server](https://kubernetes.io/ko/docs/tasks/debug-application-cluster/resource-metrics-pipeline/)를 설치해야한다.
+
+        kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/download/
+        v0.3.6/components.yaml
+
+    설치가 완료되면 노드및 파드의 metric수진 후 상단에 리소스 사용량에 대한 그래프를 확인할 수 있다.
+    
+    <table style="text-align:center;">
+        <tr>
+            <td>
+                <img src="/assets/img/posts/kubernetes/dashboard/1.png"/>        
+            </td>
+            <td>
+                <img src="/assets/img/posts/kubernetes/dashboard/2.png"/>
+            </td>
+        </tr>  
+    </table>
 
 
 ### 후기
@@ -198,17 +197,18 @@ sidebar:
 ---
 #### 참고 및 출처
 
-access <br/>
-https://crystalcube.co.kr/199
+access
+- https://crystalcube.co.kr/199
 
-dashboard <br/>
-https://kubernetes.io/ko/docs/tasks/access-application-cluster/web-ui-dashboard/
-<br/>
-https://github.com/kubernetes/dashboard/tree/master/docs
+dashboard
+- https://kubernetes.io/ko/docs/tasks/access-application-cluster/web-ui-dashboard/
+- https://github.com/kubernetes/dashboard/tree/master/docs
 
+token
+- https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md
 
-token<br/>
-https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md
+Resource Metric Pipeline
+- https://kubernetes.io/ko/docs/tasks/debug-application-cluster/resource-usage-monitoring/
 
-Resource Metric Pipeline<br/>
-https://kubernetes.io/ko/docs/tasks/debug-application-cluster/resource-usage-monitoring/
+Metric Server
+- https://github.com/kubernetes-sigs/metrics-server

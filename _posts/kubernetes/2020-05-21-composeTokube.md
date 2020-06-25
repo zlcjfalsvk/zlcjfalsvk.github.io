@@ -40,3 +40,4 @@ sidebar:
 ![convert](/assets/img/posts/kubernetes/composeTokube/convert.png)
 
 
+Kubernetes Resource 파일로 변형이 되지만 그대로 사용하기 보다는 Custom을 해야하는 부분이 꽤 많지만 그래도 좋은 모듈이라고 생각한다.
