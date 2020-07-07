@@ -29,13 +29,15 @@ angular는 컴포넌트 형식이라 모든 부분이 컴포넌트로 이루어�
 3. 원거리 컴포넌트 절달
 
 ##### 1. 부모에서 자식
-    
+
+    {% highlight typescript %}    
     부모 Component
     //[]사이의 명은 은 자식과 일치
     <app-child [childMessage]="parentMessage"></app-child> 
 
     자식 Component
     @Input() childMessage: string; //받을 값
+    {% endhighlight %}
 
 ##### 2. 자식에서 부모
 

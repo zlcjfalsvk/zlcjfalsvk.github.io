@@ -45,6 +45,7 @@ DockerHub(cloud)에 image를 올려 가져와야할 때가 있고 그 중에서 
     2. 배포하려는 image를 내 private repository로 변경
     3. spec부분에 imagePullSEcrets.name 기재
 
+            {% highlight yaml %}
             apiVersion: apps/v1
             kind: Deployment
             metadata:
@@ -69,6 +70,7 @@ DockerHub(cloud)에 image를 올려 가져와야할 때가 있고 그 중에서 
                 nodeSelector:
                     kubernetes.io/hostname: worker1
                 restartPolicy: Always
+            {% endhighlight %}
     4. 배포
     
         ![deploy](/assets/img/posts/kubernetes/privateDocker/deploy.png)
