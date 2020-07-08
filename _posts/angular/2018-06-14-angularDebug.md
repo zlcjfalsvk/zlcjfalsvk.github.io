@@ -15,6 +15,7 @@ author_profile: true
 2. 디버그 화면으로 이동하여 구성추가를 누르면 launch.json 파일이 생성된다.
 3. Launch.json 파일에 아래 설정을 추가 한다.
 
+        {% highlight json %}
         {
             "version": "0.2.0",
             "configurations": [
@@ -28,6 +29,7 @@ author_profile: true
                 }
             ]
         }
+        {% endhighlight %}
 
 4. **tsconfig.json** 파일에서 **"sourceMap": true** 설정을 추가하거나 수정한다.
 5. 프로젝트를 실행 한다.
