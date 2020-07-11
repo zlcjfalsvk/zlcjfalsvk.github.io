@@ -1,10 +1,10 @@
 ---
 title: "Angular - Optional Chaning"
 categories: 
-  - angular
+  - Angular
 tags:
-  - angular
-  - node.js
+  - Angular
+  - Node.js
 last_modified_at: 2018-06-28T13:00:00+09:00
 author_profile: true
 ---

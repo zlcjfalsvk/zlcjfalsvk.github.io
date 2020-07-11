@@ -1,9 +1,9 @@
 ---
 title: "Angular - Event Binding"
 categories: 
-  - angular
+  - Angular
 tags:
-  - angular
+  - Angular
 last_modified_at: 2018-06-13T13:00:00+09:00
 author_profile: true
 ---

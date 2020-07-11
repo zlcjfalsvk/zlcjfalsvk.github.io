@@ -1,9 +1,9 @@
 ---
 title: "Object 중복객체 제거"
 categories: 
-  - node.js
+  - Node.js
 tags:
-  - node.js
+  - Node.js
 last_modified_at: 2018-06-08T13:00:00+09:00
 author_profile: true
 ---

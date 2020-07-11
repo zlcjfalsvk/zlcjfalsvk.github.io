@@ -1,9 +1,9 @@
 ---
 title: "k8s dashboard"
 categories: 
-  - kubernetes
+  - Kubernetes
 tags:
-  - kubernetes
+  - Kubernetes
 last_modified_at: 2020-05-13T13:00:00+09:00
 author_profile: false
 sidebar:

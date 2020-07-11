@@ -1,9 +1,9 @@
 ---
 title: "Angular - vsCode로 디버깅하기"
 categories: 
-  - angular
+  - Angular
 tags:
-  - angular
+  - Angular
   - vscode
 last_modified_at: 2018-06-14T09:00:00+09:00
 author_profile: true
