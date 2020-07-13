@@ -13,27 +13,26 @@ author_profile: true
 
 1. 설치할 **extension**의 **identifier**를 알아냅니다.
 
-![1](/assets/img/posts/else/extensions/1.png)
+    ![1](/assets/img/posts/else/extensions/1.png)
 
 2. **workspace**에 **.vscode**폴더를 만들고 **extensions.json**파일을 만듭니다.
 
-![2](/assets/img/posts/else/extensions/2.png)
+    ![2](/assets/img/posts/else/extensions/2.png)
 
-    {% highlight json %}
-    // extensions.json
+        {% highlight json %}
+        // extensions.json
+        {
+            "recommendations": [
+            "vscjava.vscode-java-pack"
+            ]
+        }    
+        {% endhighlight %}
 
-    {
-        "recommendations": [
-        "vscjava.vscode-java-pack"
-        ]
-    }    
-    {% endhighlight %}
+3\. 파일작성 후 다시 **vscode**를 열어 **extension menu**를 열면 우측하단에 필요한 extensoins이 나옵니다.
 
-3. 파일작성 후 다시 **vscode**를 열어 **extension menu**를 열면 우측하단에 필요한 extensoins이 나옵니다.
+    ![3](/assets/img/posts/else/extensions/3.png)
 
-![3](/assets/img/posts/else/extensions/3.png)
-
-![4](/assets/img/posts/else/extensions/4.png)
+    ![4](/assets/img/posts/else/extensions/4.png)
 
 
 이런식으로 진행을 하면 여러 PC에서 개발을 하는 경우, extension List만 있으면	
