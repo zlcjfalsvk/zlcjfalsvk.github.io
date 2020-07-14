@@ -6,7 +6,7 @@ tags:
   - Kubernetes
   - Docker-compose
 last_modified_at: 2020-05-13T13:00:00+09:00
-author_profile: false
+author_profile: true
 sidebar:
   - nav: kubernetes-nav
 ---
