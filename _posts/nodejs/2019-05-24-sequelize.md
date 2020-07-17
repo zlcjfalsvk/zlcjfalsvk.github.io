@@ -1,9 +1,9 @@
 ---
 title: "node.js express + typescript + sequelize(ORM)"
 categories: 
-  - Node.js
+  - node.js
 tags:
-  - Node.js
+  - node.js
   - express.js
   - typescript
 last_modified_at: 2019-05-24T13:00:00+09:00
