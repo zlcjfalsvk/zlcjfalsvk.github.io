@@ -64,3 +64,12 @@ elk-nav:
           url: /elk/logstash      
         - title: "ElasticSearch - 개념"
           url: /elk/elasticSearch
+
+ng-grid:
+    - title: "목차"
+      children:
+        - title: "개발일지 1"
+        - title: "개발일지 2" 
+        - title: "개발일지 3" 
+        - title: "개발일지 4" 
+        - title: "개발일지 5"                                 
