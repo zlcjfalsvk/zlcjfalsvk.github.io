@@ -69,7 +69,10 @@ ng-grid:
     - title: "목차"
       children:
         - title: "개발일지 1"
+          url: /angular/datagrid1
         - title: "개발일지 2" 
+          url: /angular/datagrid2
         - title: "개발일지 3" 
-        - title: "개발일지 4" 
-        - title: "개발일지 5"                                 
+          url: /angular/datagrid3
+        - title: "개발일지 4"     
+          url: /angular/datagrid4 
