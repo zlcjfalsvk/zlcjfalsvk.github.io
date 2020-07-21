@@ -4,7 +4,7 @@ categories:
   - Angular
 tags:
   - Angular
-  - Node.js
+  - node.js
 last_modified_at: 2018-06-28T13:00:00+09:00
 author_profile: true
 ---
