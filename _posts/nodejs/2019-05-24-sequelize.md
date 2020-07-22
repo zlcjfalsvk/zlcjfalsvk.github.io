@@ -1,5 +1,5 @@
 ---
-title: "node.js express + typescript + sequelize(ORM)"
+title: "node.js - express + typescript + sequelize(ORM)"
 categories: 
   - node.js
 tags:
