@@ -124,5 +124,5 @@ Template 에는 다음과 같이 추가해준다.
 
 Angular Data Chart
 
-- https://github.com/swimlane/ngx-charts
-- https://swimlane.github.io/ngx-charts/#/ngx-charts/polar-chart
+- <https://github.com/swimlane/ngx-charts>
+- <https://swimlane.github.io/ngx-charts/#/ngx-charts/polar-chart>

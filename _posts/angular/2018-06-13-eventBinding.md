@@ -42,7 +42,7 @@ Angular의 대표적인 [이벤트 바인딩](https://angular.io/guide/template-
 #### 참고 및 출처
 
 Angular Event Binding
-- https://angular.io/guide/template-syntax#event-binding
+- <https://angular.io/guide/template-syntax#event-binding>
 
 Mozilla Event Bindind
-- https://developer.mozilla.org/en-US/docs/Web/Events
+- <https://developer.mozilla.org/en-US/docs/Web/Events>

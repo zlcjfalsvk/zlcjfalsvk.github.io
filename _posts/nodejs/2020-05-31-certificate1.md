@@ -29,5 +29,5 @@ node.js 환경에서 HTTPS / SSL / TLS 검사를 비활성화한다는 옵션인
 ---
 #### 참고 및 출처
 
-- https://whitelife.tistory.com/303
-- https://stackoverflow.com/questions/20433287/node-js-request-cert-has-expired﻿
+- <https://whitelife.tistory.com/303>
+- <https://stackoverflow.com/questions/20433287/node-js-request-cert-has-expired﻿>

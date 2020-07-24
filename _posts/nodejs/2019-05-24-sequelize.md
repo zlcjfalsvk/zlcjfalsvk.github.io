@@ -301,7 +301,7 @@ sequelize에서는 [hooks](https://sequelize.org/master/manual/hooks.html)이라
 #### 참고 및 출처
 
 transaction
-- https://k39335.tistory.com/28
+- <https://k39335.tistory.com/28>
 
 mysql isolation level
-- http://gywn.net/2012/05/mysql-transaction-isolation-level/﻿
+- <http://gywn.net/2012/05/mysql-transaction-isolation-level/﻿>

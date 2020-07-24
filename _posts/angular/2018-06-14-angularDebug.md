@@ -41,4 +41,4 @@ author_profile: true
 #### 참고 및 출처
 
 vsCode
-- https://code.visualstudio.com/docs/nodejs/angular-tutorial
+- <https://code.visualstudio.com/docs/nodejs/angular-tutorial>

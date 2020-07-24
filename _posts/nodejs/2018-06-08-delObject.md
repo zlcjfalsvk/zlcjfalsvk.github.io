@@ -41,8 +41,8 @@ Json 형태Object가 있을 때 중복된 key를 해야할 때가 있다.
 ---
 #### 참고 및 출처
 
-- https://code.i-harness.com/ko/q/21dbf7
+- <https://code.i-harness.com/ko/q/21dbf7>
 
 Array.from
-- https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+- <https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from>
 

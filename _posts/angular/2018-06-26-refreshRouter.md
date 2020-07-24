@@ -31,4 +31,4 @@ author_profile: true
 
 ---
 #### 참고 및 출처
-- https://github.com/angular/angular/issues/13831
+- <https://github.com/angular/angular/issues/13831>

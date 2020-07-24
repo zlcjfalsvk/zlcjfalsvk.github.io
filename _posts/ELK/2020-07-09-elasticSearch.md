@@ -187,7 +187,7 @@ ElasticSearch는 Rdbms와 다른 구조를 가지지만 이해하기 쉽게 다�
 #### 참고 및 출처
 
 ElasticSearch
-- https://www.elastic.co/kr/what-is/elasticsearch
+- <https://www.elastic.co/kr/what-is/elasticsearch>
 
 Rdbms vs ElasticSearch
-- https://www.slideshare.net/gruter/elastic-search-performance-optimization-deview-2014
+- <https://www.slideshare.net/gruter/elastic-search-performance-optimization-deview-2014>

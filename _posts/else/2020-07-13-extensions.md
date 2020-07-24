@@ -44,4 +44,4 @@ author_profile: true
 
 Workspace recommended extensions
 
-- https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions
+- <https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions>

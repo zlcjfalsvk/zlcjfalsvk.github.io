@@ -68,4 +68,4 @@ Angular에서는 Sanitization And Security Contexts의 다음과 같이 정의�
 
 Angular Sanitization
 
-- https://angular.io/guide/security#sanitization-and-security-contexts
+- <https://angular.io/guide/security#sanitization-and-security-contexts>

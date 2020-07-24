@@ -59,4 +59,4 @@ angular는 컴포넌트 형식이라 모든 부분이 컴포넌트로 이루어�
 
 ---
 #### 참고 및 출처
-- https://www.slideshare.net/AmritaChopra1/angular-2-component-communication-talk-by-rob-mcdiarmid
+- <https://www.slideshare.net/AmritaChopra1/angular-2-component-communication-talk-by-rob-mcdiarmid>

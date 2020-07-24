@@ -198,17 +198,17 @@ sidebar:
 #### 참고 및 출처
 
 access
-- https://crystalcube.co.kr/199
+- <https://crystalcube.co.kr/199>
 
 dashboard
-- https://kubernetes.io/ko/docs/tasks/access-application-cluster/web-ui-dashboard/
-- https://github.com/kubernetes/dashboard/tree/master/docs
+- <https://kubernetes.io/ko/docs/tasks/access-application-cluster/web-ui-dashboard/>
+- <https://github.com/kubernetes/dashboard/tree/master/docs>
 
 token
-- https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md
+- <https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md>
 
 Resource Metric Pipeline
-- https://kubernetes.io/ko/docs/tasks/debug-application-cluster/resource-usage-monitoring/
+- <https://kubernetes.io/ko/docs/tasks/debug-application-cluster/resource-usage-monitoring/>
 
 Metric Server
-- https://github.com/kubernetes-sigs/metrics-server
+- <https://github.com/kubernetes-sigs/metrics-server>

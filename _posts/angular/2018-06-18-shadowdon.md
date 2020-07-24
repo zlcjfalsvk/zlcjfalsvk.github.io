@@ -38,5 +38,5 @@ angular에서 **bind**로 인해 맨 처음 **dom**이 초기화 되고 그 다�
 #### 참고 및 출처
 
 Special selectors
-- https://angular.io/guide/component-styles
-- https://stackoverflow.com/questions/37689673/angular2-styling-issues-caused-by-dom-attributes-ngcontent-vs-nghost?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+- <https://angular.io/guide/component-styles>
+- <https://stackoverflow.com/questions/37689673/angular2-styling-issues-caused-by-dom-attributes-ngcontent-vs-nghost?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa>

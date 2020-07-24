@@ -111,24 +111,24 @@ AWS에 올린 File을 스트리밍 형식을 통하여 다운로드하는 방식
 #### 참고 및 출처
 
 스트림이란?
-- http://www.ktword.co.kr/word/abbr_view.php?m_temp1=1311
+- <http://www.ktword.co.kr/word/abbr_view.php?m_temp1=1311>
 
 파이프라인
-- https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8_(%EC%BB%B4%ED%93%A8%ED%8C%85)
+- <https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8_(%EC%BB%B4%ED%93%A8%ED%8C%85)>
 
 aws node.js stream
-- https://docs.aws.amazon.com/ko_kr/sdk-for-javascript/v2/developer-guide/requests-using-stream-objects.html
+- <https://docs.aws.amazon.com/ko_kr/sdk-for-javascript/v2/developer-guide/requests-using-stream-objects.html>
 
 node.js File System Stream
-- https://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options
+- <https://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options>
 
 Streaming Example
-- http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+- <http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4>
 
 Streaming Header
-- https://medium.com/better-programming/video-stream-with-node-js-and-html5-320b3191a6b6
-- https://www.3rabbitz.com/blog_ko/d9b3b3b10d2fee4a
-- https://stackoverflow.com/questions/53226595/streaming-audio-in-node-js-with-content-range
+- <https://medium.com/better-programming/video-stream-with-node-js-and-html5-320b3191a6b6>
+- <https://www.3rabbitz.com/blog_ko/d9b3b3b10d2fee4a>
+- <https://stackoverflow.com/questions/53226595/streaming-audio-in-node-js-with-content-range>
 
 206 respnose
-- https://developer.mozilla.org/ko/docs/Web/HTTP/Status/206﻿
+- <https://developer.mozilla.org/ko/docs/Web/HTTP/Status/206﻿>

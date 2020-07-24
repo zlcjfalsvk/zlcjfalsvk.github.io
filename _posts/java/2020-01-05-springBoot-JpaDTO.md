@@ -178,12 +178,12 @@ QLRM을 이용하면 DTO 생성 및 생성자만 만들어주면 됩니다.
 #### 참고 및 출처
 
 QLRM
-- https://github.com/72services/qlrm
+- <https://github.com/72services/qlrm>
 
 EntityManager
-- https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html#createNativeQuery-java.lang.String-
+- <https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html#createNativeQuery-java.lang.String->
 
 
 
 example 
-- https://www.programcreek.com/java-api-examples/?class=javax.persistence.EntityManager&method=createNativeQuery﻿
+- <https://www.programcreek.com/java-api-examples/?class=javax.persistence.EntityManager&method=createNativeQuery﻿>

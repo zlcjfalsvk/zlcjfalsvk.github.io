@@ -22,8 +22,8 @@ Angular가 typescript를 채택해서 그런지 [**Optional Channing**](https://
 #### 참고 및 출처
 
 safe navigation operator
-- https://angular.io/guide/template-syntax#safe-navigation-operator
-- https://stackoverflow.com/questions/42364184/why-we-use-operator-in-template-binding-in-angular-2
+- <https://angular.io/guide/template-syntax#safe-navigation-operator>
+- <https://stackoverflow.com/questions/42364184/why-we-use-operator-in-template-binding-in-angular-2>
 
 Typescript Optional Channing
-- https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#optional-chaining
+- <https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#optional-chaining>

@@ -148,25 +148,25 @@ type을 이용하면 다음과 같은 코드로 작성할 수 있습니다.
 ---
 #### 참고 및 출처
 type과 interface 차이
-- https://medium.com/@alexsung/typescript-type%EA%B3%BC-interface-%EC%B0%A8%EC%9D%B4-86666e3e90c
-- https://stackoverflow.com/questions/37233735/typescript-interfaces-vs-types
+- <https://medium.com/@alexsung/typescript-type%EA%B3%BC-interface-%EC%B0%A8%EC%9D%B4-86666e3e90c>
+- <https://stackoverflow.com/questions/37233735/typescript-interfaces-vs-types>
 
 
 
 Basic Types
-- https://www.typescriptlang.org/docs/handbook/basic-types.html
+- <https://www.typescriptlang.org/docs/handbook/basic-types.html>
 
 type check
-- https://stackoverflow.com/questions/14425568/interface-type-check-with-typescript
+- <https://stackoverflow.com/questions/14425568/interface-type-check-with-typescript>
 
 
 
 `is` keyword
-- https://www.typescriptlang.org/docs/handbook/advanced-types.html?fbclid=IwAR2GutUK0bEVle5tFRTKuFd-XrICVUbgRtO1vzazg9DuTtkXdDlj1fQIyWI#user-defined-type-guards
+- <https://www.typescriptlang.org/docs/handbook/advanced-types.html?fbclid=IwAR2GutUK0bEVle5tFRTKuFd-XrICVUbgRtO1vzazg9DuTtkXdDlj1fQIyWI#user-defined-type-guards>
 
 
 type guard
 
-- https://dev.to/krumpet/generic-type-guard-in-typescript-258l
-- https://basarat.gitbooks.io/typescript/docs/types/typeGuard.html
-- https://www.typescriptlang.org/docs/handbook/advanced-types.html?fbclid=IwAR1bjoH6EOdz2KjadoUI-2aoxxnIpY2097xj4nla8q645Ef9MxPiGnMEV3c#user-defined-type-guards﻿
+- <https://dev.to/krumpet/generic-type-guard-in-typescript-258l>
+- <https://basarat.gitbooks.io/typescript/docs/types/typeGuard.html>
+- <https://www.typescriptlang.org/docs/handbook/advanced-types.html?fbclid=IwAR1bjoH6EOdz2KjadoUI-2aoxxnIpY2097xj4nla8q645Ef9MxPiGnMEV3c#user-defined-type-guards﻿>

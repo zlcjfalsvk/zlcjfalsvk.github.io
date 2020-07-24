@@ -52,6 +52,6 @@ Server to Server 통신을 하다가 발견하였다.
 ---
 #### 참고 및 출처
 
-- https://www.sslshopper.com/ssl-checker.html
-- https://stackoverflow.com/questions/62128611/nodejs-certificate-has-expired
-- https://stackoverflow.com/questions/62107431/curl-error-60-ssl-certificate-problem-certificate-has-expired/62108103#62108103﻿
+- <https://www.sslshopper.com/ssl-checker.html>
+- <https://stackoverflow.com/questions/62128611/nodejs-certificate-has-expired>
+- <https://stackoverflow.com/questions/62107431/curl-error-60-ssl-certificate-problem-certificate-has-expired/62108103#62108103﻿>
