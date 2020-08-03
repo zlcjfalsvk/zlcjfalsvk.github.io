@@ -1,31 +1,33 @@
 ---
-title: "promethus - promethus"
+title: "prometheus - prometheus"
 categories: 
-  - promethus
+  - prometheus
 tags:
-  - promethus
+  - prometheus
 last_modified_at: 2020-07-31T18:00:00+09:00
 author_profile: true
+sidebar:
+  - nav: prometheus
 ---
 ## 설치
 
-[promethus](https://prometheus.io/download/) 에서 알맞은 os 선택을 하면 다운로드 list를 확인할 수 있다.
+[prometheus](https://prometheus.io/download/) 에서 알맞은 os 선택을 하면 다운로드 list를 확인할 수 있다.
 
     {% highlight console %}
     cd ~
-    mkdir promethus
+    mkdir prometheus
     wget https://github.com/prometheus/prometheus/releases/download/v2.20.0/prometheus-2.20.0.linux-amd64.tar.gz
     tar -zxvf prometheus-2.20.0.linux-amd64.tar.gz 
     cd prometheus-2.20.0.linux-amd64/
     {% endhighlight %}
 
-![1](/assets/img/posts/promethus/promethus/1.png)
+![1](/assets/img/posts/prometheus/prometheus/1.png)
 
 ## Config
 
-**promethus** 자체는 수집할 **node**들의 [exporter](https://prometheus.io/docs/instrumenting/exporters/)들에 **metrics**을 요청하고 수집하는 서버이다.
+**prometheus** 자체는 수집할 **node**들의 [exporter](https://prometheus.io/docs/instrumenting/exporters/)들에 **metrics**을 요청하고 수집하는 서버이다.
 
-그리고 그 설정은 `promethus.yml`에서 설정할 수 있다. [문서](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#static_config)
+그리고 그 설정은 `prometheus.yml`에서 설정할 수 있다. [문서](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#static_config)
 
 ### default 
 
@@ -79,14 +81,14 @@ author_profile: true
 
 `./prometheus`를 실행 후 브라우저에서 `http://localhost:9090`을 입력하면 다음과 같이 화면이 나온다.
 
-![2](/assets/img/posts/promethus/promethus/2.png)
+![2](/assets/img/posts/prometheus/prometheus/2.png)
 
-현재 **promethus** 수집하고 있는 **metrics**를 보려면 다음과 같이 확인할 수 있다.
-![3](/assets/img/posts/promethus/promethus/3.png)
+현재 **prometheus** 수집하고 있는 **metrics**를 보려면 다음과 같이 확인할 수 있다.
+![3](/assets/img/posts/prometheus/prometheus/3.png)
 
 ---
 #### 참고 및 출처
 
-promethus
+prometheus
 - <https://prometheus.io/>
 - <https://github.com/prometheus/prometheus>
