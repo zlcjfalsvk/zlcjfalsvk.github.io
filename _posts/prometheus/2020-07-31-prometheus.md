@@ -23,7 +23,7 @@ sidebar:
 
 ![1](/assets/img/posts/prometheus/prometheus/1.png)
 
-## Config
+## 설정
 
 **prometheus** 자체는 수집할 **node**들의 [exporter](https://prometheus.io/docs/instrumenting/exporters/)들에 **metrics**을 요청하고 수집하는 서버이다.
 
