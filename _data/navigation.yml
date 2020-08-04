@@ -96,3 +96,5 @@ prometheus:
           url: /prometheus/rules/        
         - title: "4. grafana"
           url: /prometheus/grafana/
+        - title: "5. alertmanager"
+          url: /prometheus/alertmanager/
