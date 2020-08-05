@@ -64,7 +64,7 @@ sidebar:
     {% endhighlight %}
 
 ### custom
-[node-exporter](./2020-07-31-nodeExporter.md) 실행 후 지표를 수집해보자.
+[node-exporter](../nodeExporter) 실행 후 지표를 수집해보자.
 
     {% highlight yaml %}
     scrape_configs:
