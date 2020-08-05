@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko"
-title                    : "CheolCHeol Blog"
+title                    : "CheolCheol Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Cheolmin CHoi"
-description              : "CheolCHeol Blog"
+name                     : "Cheolmin Choi"
+description              : "CheolCheol Blog"
 url                      : "https://zlcjfalsvk.github.io"
 baseurl                  : ""
 repository               : "zlcjfalsvk/zlcjfalsvk.github.io"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Cheolmin CHOi"
+  name             : "Cheolmin Choi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : 철철이네 블로그 입니다.
   location         : "Seoul"
