@@ -1,10 +1,10 @@
 ---
-title: "Spring boot - JPA DTO Mapping ( Native Query to DTO )"
+title: "spring boot - JPA DTO Mapping ( Native Query to DTO )"
 categories: 
-  - java
+  - spring boot
 tags:
   - java
-  - Spring Boot
+  - spring boot
 last_modified_at: 2020-01-05T13:00:00+09:00
 author_profile: true
 ---
