@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://zlcjfalsvk.github.io/sitemap.xml
+Sitemap: https://zlcjfalsvk.github.io/sitemap2.xml
